@@ -1,0 +1,22 @@
+$ git clone maryrose-hw my-work
+Cloning into 'my-work'...
+done.
+$ cd my-work
+$ git branch my-comments
+$ git checkout my-comments
+Switched to branch 'my-comments'
+$ ls
+homework.js
+$ git add homework.js
+$ git commit -m "All comments have been provided"
+On branch my-comments
+nothing to commit, working directory clean
+$ git push origin my-comments
+Total 0 (delta 0), reused 0 (delta 0)
+To /home/ccuser/workspace/js-homework/maryrose-hw
+ * [new branch]      my-comments -> my-comments
+$ cd ../maryrose-hw
+$ git branch
+* master
+  my-comments
+$ 
